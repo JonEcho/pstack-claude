@@ -90,6 +90,16 @@ const rules = [
     file: "poteto-mode/SKILL.md",
     phrase: "severity decides its artifact, not where it turned up",
   },
+  {
+    source: "reflect backlog trigger coverage",
+    file: "reflect/SKILL.md",
+    phrase: "asks to synthesize reviewer findings",
+  },
+  {
+    source: "reflect backlog behavior coverage",
+    file: "reflect/SKILL.md",
+    phrase: "Before applying any Accepted edit",
+  },
 ];
 
 describe("port-local skill rules", () => {
