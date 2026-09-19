@@ -90,6 +90,11 @@ const rules = [
     file: "poteto-mode/SKILL.md",
     phrase: "severity decides its artifact, not where it turned up",
   },
+  {
+    source: "reflect backlog PR readback",
+    file: "poteto-mode/playbooks/babysit.md",
+    phrase: "Read the PR's files, reviews, comments, head and base refs, and merge state",
+  },
 ];
 
 describe("port-local skill rules", () => {
