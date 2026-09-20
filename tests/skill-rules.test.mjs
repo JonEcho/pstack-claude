@@ -91,14 +91,9 @@ const rules = [
     phrase: "severity decides its artifact, not where it turned up",
   },
   {
-    source: "reflect backlog PR readback",
+    source: "#86 confirm the first status read",
     file: "poteto-mode/playbooks/babysit.md",
-    phrase: "Read the PR's files, reviews, comments, head and base refs, and merge state",
-  },
-  {
-    source: "reflect backlog PR readback command",
-    file: "poteto-mode/playbooks/babysit.md",
-    phrase: "gh pr view <pr> --json number,files,reviews,comments,headRefName,headRefOid,baseRefName,baseRefOid,mergeable,mergeStateStatus",
+    phrase: "confirm that the PR or stack it reports matches the request",
   },
 ];
 
